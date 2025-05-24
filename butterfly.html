@@ -3,6 +3,10 @@
         <script>
             function a(){
                 var x=parseInt(document.getElementById("a").value);
+                if(x%2!=0)
+            {
+                x+=1;
+            }
                 for(var i=0;i<x;i++)
             {
                 for(j=0;j<x;j++)
